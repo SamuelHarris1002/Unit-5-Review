@@ -7,8 +7,8 @@
 
    Credit Card Form Script
    
-   Author: 
-   Date:   
+   Author: Samuel Harris
+   Date:   5-18-20
    
    Filename: co_credit.js
    

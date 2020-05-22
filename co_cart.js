@@ -7,8 +7,8 @@
 
    Shopping Cart Form Script
    
-   Author: 
-   Date:   
+   Author: Samuel Harris
+   Date:   5-18-20
    
    Filename: co_cart.js
    
@@ -28,7 +28,18 @@
    
 */ 
 
+window.addEventListener("load", function(){
+   var cartForm = doucemnt.forms.cart;
+   cartForm.elements.modelQty.onchange = calcCart;
+   for(var i = 0; i < .length; i++){
 
+   }});
+
+
+function calcCart(){
+    var orderCost = formatNumber(249, 95);
+    var shipcost = orderCost * quantity
+}
 
 
 
