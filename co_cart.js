@@ -38,7 +38,7 @@ window.addEventListener("load", function(){
 
 function calcCart(){
     var orderCost = formatNumber(249, 95);
-    var shipcost = orderCost * quantity
+    var shipcost = orderCost * quantity;
 }
 
 
